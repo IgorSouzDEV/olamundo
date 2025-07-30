@@ -10,7 +10,7 @@ function PostCard({post}){
             <div className={styles.post}>
                 <img 
                 className={styles.capa} 
-                src={`src/assets/posts/${id}/capa.png`} 
+                src={`assets/posts/${id}/capa.png`} 
                 alt='Imagem da capa do post'
                 loading='lazy'
                 />
